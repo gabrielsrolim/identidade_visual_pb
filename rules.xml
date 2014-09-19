@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules
+    xmlns="http://namespaces.plone.org/diazo"
+    xmlns:css="http://namespaces.plone.org/diazo/css"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+    <rules css:if-content="#visual-portal-wrapper">
+
+        <theme href="index.html" />
+        
+        <!-- Head elements -->
+        <replace css:theme="html head title" css:content="html head title" />
+        <after css:theme-children="html head" css:content="html head base" />
+        <after css:theme-children="html head" css:content="html head script" />
+        
+        <!-- Personal tools -->
+        <before css:theme="#conteudo" css:content="#portal-personaltools" />
+        
+        <!-- Edit bar -->
+        <before css:theme-children="#conteudo" css:content="#edit-bar" />
+        
+        <!-- Main columns -->
+        <replace css:theme-children="#dois" css:content-children="#content"/>
+        <replace css:theme-children="#hum" css:content-children="#portal-column-one" />
+        <replace css:theme-children="#tres" css:content-children="#portal-column-two" />
+
+        <!-- Footer -->
+        <before css:theme-children="#rodape" css:content-children="#portal-footer" />
+        <before css:theme-children="#rodape">
+            <br></br>
+        </before>
+        <after css:theme-children="#rodape" >
+            <div id="teste" style="margin: 10px 0px;"></div>
+        </after>        
+        <after css:theme-children="#rodape" css:content="#portal-siteactions" />
+        
+        <!--<replace css:theme-children="#menu_topo" css:content="#featured-content" />-->
+    </rules>
+
+</rules>
+
+
