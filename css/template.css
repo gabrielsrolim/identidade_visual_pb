@@ -1,0 +1,115 @@
+/* Design by Brian Diaz of Media 65 @ http://www.m65.net  All Rights Reserved */
+
+@import url(layouts.css);
+@import url(menu.css);
+@import url(components.css);
+@import url(modules.css);
+@import url(navigation.css);
+@import url(misc.css);
+@import url(forms.css);
+
+/* #######################  GENERAL SETTINGS ############################ */
+html, body {font: 13px Tahoma, Arial, Helvetica, sans-serif; text-align: justify;}
+html{height:100%;}
+
+body{ 
+    /*background:White url(../img/background/bg.jpg) top center repeat-x;*/
+	 
+}
+
+.mceContentBody {
+    background: none;
+    height: 100%;
+}
+
+/*  Heading Formatting */
+h1{ font-size:1.6em; margin-bottom:15px; color:#009440;}
+h2{ margin:30px 0 10px 0; font-size:28px; color:#009440; font-weight: normal; }
+h3{ font-size:20px;; margin-bottom:10px; color:#0E81C5; font-weight: normal;}
+h4{ font-size:16px; color:#107abc; font-weight:normal;}
+h5{ font-size:1.1em; color:#0E81C5;}
+h6{ font-size:1.05em; color:#0E81C5;}
+
+.moduletable h3{ margin: 10px 0 10px 0; font-size:28px; color:#009440; font-weight: normal; }
+/*h4 {
+border-bottom:1px solid #C6C6C6;
+border-top:1px solid #C6C6C6;
+color:#444B53;
+font-size:12px;
+font-weight:bold;
+padding:5px;
+text-align:left;
+width:100%;	}*/
+
+h5 {font-size:1.3em;line-height: 0.8em;font-weight: 900;color: #000;}
+h6 {font-size:1.2em;line-height: 0.8em;font-weight: 900;color: #000;}
+
+/*links*/
+a {text-decoration:none;}
+a:link, a:visited {color:#0071b7}
+a:hover, a:active {color:#014874;}
+img {border: 0 none;}
+
+/* Clears Divs */
+.clr{clear: both;}
+
+/* #######################  END GENERAL SETTINGS ############################ */
+.teste{
+	border: 5px inset #687598;
+	background-color: #E9EFF1;
+	background-image: url(../img/portal/bg-num-painel-off.gif);
+	background: #E9EFF1 url(../img/portal/bg-num-painel-off.gif) no-repeat;
+}
+
+.teste li{
+	/*border: 5px inset #687598;*/
+	background-color: #E9EFF1;
+	background-image: url(../img/portal/bg-num-painel-off.gif);
+	/*background: #E9EFF1 url(../img/portal/bg-num-painel-off.gif) no-repeat;*/
+}
+
+td.teste a:hover{
+	border: none;
+	background-color: #E9EFF1;
+	background-image: url(../img/portal/bg-num-painel-off.gif);
+	
+}
+
+/* Alterado por CODATA */
+
+/* Alterações para manter o padrão do portal do governo para integração com o Flickr */
+
+div.moduletable_galeria_flickr h3{
+        background: url("../img/portal/ico-flickr.png") no-repeat scroll left center transparent;
+        padding: 3px 0 3px 123px;
+        color: #005395;
+        font-size: 20px;
+        font-weight: normal;
+        margin:0;
+}
+
+.gallery-flickr ul li{
+        margin-bottom: 5px;
+        margin-left: 5px;
+}
+
+div.gallery-flickr{
+        margin-top:-15px;
+}
+
+div.moduletable_videos_youtube h3{
+        background: url("../img/portal/ico-youtube.png") no-repeat scroll left center transparent;
+        color: #005395;
+        font-size: 20px;
+        font-weight: normal;
+        margin: 0px 0 15px;
+	padding: 5.5px 0 5.5px 100px;
+}
+
+div.moduletable_videos_youtube{
+	margin-bottom: 10px;
+}
+
+div.menu-02 span, div.menu-02 a, div.menu-02 img {
+    font-size: 13px;
+}

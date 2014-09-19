@@ -1,0 +1,388 @@
+/* Design by Brian Diaz of Media 65 @ http://www.m65.net  All Rights Reserved */
+
+/* #############  CONTENT - SECTIONS & CATEGORIES ###########################*/
+/* Element |ID   | Class 			  |Suffix */
+/* Div     |NA   |contentheading   |pageclass_sfx*/
+/* com_content AKA CORE ARTICLES FOR JOOMLA */
+/* I */
+
+/*  Needs Edit component heading */
+/* Element |ID   | Class 			  |Suffix */
+/* Div     |NA   |contentheading   |YES */
+/* Top of any article is Parameters - Component : Show Article Title*/
+.componentheading {	
+    border-bottom:1px solid #C6C6C6;
+    border-top:1px solid #C6C6C6;
+    color:#444B53;
+    font-size:12px;
+    font-weight:bold;
+    padding:5px;
+    text-align:left;
+}
+	
+/* Element |ID   | Class 			  |Suffix */
+/* Div     |NA   |contentheading   |YES */
+/* Top of any article is Parameters - Component : Show Article Title*/
+.contentheading {
+    color:black;
+    font-size:17px;
+    /*font-weight:bold;*/
+    /*padding:5px;*/
+    text-align:left;
+    width:100%;
+}
+td.contentheading{
+	text-align:left;
+}
+/*
+.contentheading a, .contentheading a:link, .contentheading a:hover, .contentheading a:active, .contentheading a:visited{
+  color: Black;
+}*/
+
+/* article rating needs to turn on via the back-end */
+.content_rating {}
+.content_vote {}
+/* .button class to be added see forms css */
+
+
+/* Element |ID   | Class 			    |Suffix */
+/* Div     |NA   |contentpagetitle   |YES */
+/* Top of any article is Parameters - Component : Show Article Title*/
+/* content title and links href links happens if turned on via the back-end*/
+.contentpagetitle{}
+a.contentpagetitle:link{}
+a.contentpagetitle:visited {}
+a.contentpagetitle:hover{}
+
+/* top box like a category description */
+.contentdescription {}
+
+/* Icons Print E-mail PDF etc.*/
+.buttonheading{}
+
+/* Writen by Authors name can also be seen on search com results href and intro text & Category listing if it has a article count*/
+.small {
+	color:#ABABAB;
+    font-size:10px;
+    line-height:0.7;
+}
+
+/* Dates */
+.createdate {color:#ABABAB;
+font-size:10px;
+height:10px;
+line-height:0.7;}
+.modifydate {color:#ABABAB;
+font-size:10px;
+height:10px;
+line-height:0.7;}
+.newsfeeddate {color:#ABABAB;
+font-size:10px;
+height:10px;
+line-height:0.7;}
+/* Dates */
+
+
+/* Main Body Text */
+.contentpane {}
+/* Main Body Text */
+.contentpaneopen {
+   /*border-bottom:1px solid #C6C6C6;*/
+
+  /* background:#F5F5F5 none repeat scroll 0 0;*/
+   /*color:#0071B7;*/
+   padding:2px;
+	width: 100%;
+}
+
+.moduletable_logo {
+	background: url(../img/portal/menu_fecha.jpg);
+	padding-bottom: 13px;
+	margin-bottom: 10px;
+}
+
+.logo1 {
+	background: #F6F4F7 url(../img/portal/menu_fecha_top_esq.jpg) no-repeat top;
+	height:13px;
+	font-size:1px; /** hIE **/
+
+}
+
+.logocentro{
+	border:1px solid #e8e7ec;	
+	/*background-color:#F6F4F7;*/
+	text-align: center;
+}
+
+.logobase {
+	background: #F6F4F7 url(../img/portal/menu_fecha.jpg) no-repeat top;
+	height:13px;
+	font-size:1px; /** hIE **/
+}
+
+
+
+.contentpaneopen ul{
+
+}
+/* edit button if you have access to it */
+.contentpaneopen_edit{-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#F5F5F5 none repeat scroll 0 0;
+border-top:1px solid #E4E3E3;
+border-bottom:1px solid #E4E3E3;
+border-left:1px solid #E4E3E3;
+border-right:1px solid #E4E3E3;
+color:#8D8D8D;
+padding:5px;}
+
+
+/* Article Table of contents */
+table.contenttoc {float:right;}
+	
+/* Heading Top TOC */
+table.contenttoc th {}
+
+/* Table Data can add color */
+table.contenttoc td {}
+
+/* Links Article Table of contents index */
+a.toclink:link,	a.toclink:hover, a.toclink:visited  { color:#333333;}
+/* End Article Table of contents  */
+
+/* Main Body Text */
+
+/* << Prev - Next >> */
+.pagenavbar{}
+.pagenavcounter{}
+
+/* Page footer nav  « StartPrev12NextEnd » */
+.pagination{}
+.pagination span {}
+a.pagination  a   {} 
+a.pagination:hover {}
+
+/* Table layout types "list"ings  Archived, weblink etc..*/
+.sectiontableheader {
+ padding-right: 3px;
+ padding-left: 3px;
+ color: #F2F3F7;
+ font-weight: bold;
+ background-color: #A6A688;
+ line-height: 25px;
+ border-bottom: 1px solid White;
+ border-left: 1px solid Black;
+ border-right-color: White;
+ border-right-style: solid;
+ border-right-width: 1px;
+ border-top-color: Black;
+ border-top-style: solid;
+ border-top-width: 1px;
+}
+.sectiontableheader a:link, .sectiontableheader a:active, .sectiontableheader a:visited {
+ text-decoration: none;
+ color: #F2F3F7;
+ font-weight: bold;
+}
+/* Table odd and Even Rows */
+.sectiontableentry1 {
+  background-color: #EFEFEF;
+
+ }
+ 
+ .sectiontableentry1 tr:hover{
+  background-color: Aqua;
+ }
+ .sectiontableentry1 a, .sectiontableentry2 a{
+ 	text-decoration: none;
+ }
+.sectiontableentry2 {
+ background-color: #F5F5F5;
+}
+.sectiontableentry2 td, .sectiontableentry1 td{
+   padding: 2px 2px 2px 3px;
+}
+.sectiontableentry1 a:hover, .sectiontableentry2 a:hover{
+ 	color:Black;
+	text-decoration: underline;
+}
+.sectiontablefooter {}
+/* End Sectiontable */
+
+/* Category */
+.category {}
+a.category:link, a.category:visited, a.category:hover  {}
+/* End category */
+
+
+/* blogs Layout Style Top of the page Blog style Layouts */
+.blog {   background:White none repeat scroll 0 0;
+  /* border-top:1px solid #E4E3E3;*/
+   
+   /*border-left:1px solid #E4E3E3;
+   border-right:1px solid #E4E3E3;*/
+  /* color:#636363;*/
+width: 100%;
+	}
+	
+.blog div{
+  
+	border-bottom: 1px dotted #E4E3E3;
+  /*  font-size: 20px;*/
+    
+   /* margin: 1px 0 10px;*/.
+	
+ 	}
+.highslide-gallery{
+	border: none;
+}
+.blog_heading {}
+/*  At the footer of the blog style pages */
+.blog_more div{
+   /*background:transparent url(../img/portal/aba.jpg) no-repeat scroll 0 0;
+   color:#636363;*/
+	height: 28px;
+   padding-top:8px;
+   text-indent:3px;
+   text-align:left;
+  width:100%;
+  color: #01426B;/*#009440;*/
+  /*  font-size: 20px;*/
+    
+   /* margin: 1px 0 10px;*/.
+	
+ 	}
+	.blog_more strong {
+	color: #005395;
+    font-size: 20px;
+	font-style: normal;
+	font-weight: normal;
+  }
+.blog_more ul {
+   list-style: none;
+   margin-left: 5px;
+	padding: 5px;
+
+}  
+
+.blog_more a:link{
+
+}  
+/* UL List at the footer of the Page */
+.blogsection{
+ list-style: none;
+ /*background-color: #F5F5F5;*/
+ }
+ 
+ .blogsection a:link, .blogsection a:hover, .blogsection a:visited, .blogsection a:active{
+ font-size: 14px;
+}  
+
+table.blogsection td{
+	/*border-bottom: 1px dotted Black;*/
+}
+.blogsection ul{
+ list-style: none;
+ /*background-color: #F5F5F5;*/
+ padding-left: 14px;
+ line-height: 18px;
+  /*margin: 5px;*/
+}
+
+
+/* Read more link to full article  */
+/*.readon{
+     border:1px solid #EEEEEE;
+     font-size:11px;
+     font-weight:normal;
+     line-height:15px;
+     margin-top:10px;
+     padding-left:13px;
+     text-decoration:none;	
+}*/
+
+a.readon {
+font-size: 11px;
+text-decoration: none;
+line-height: 15px;
+border: 1px solid #EEEEEE;
+padding-left: 13px;
+background: url(../img/portal/readmore1.gif);
+margin-top: 10px;
+font-weight: normal;
+}
+
+a.readon:hover {
+background: #D0D0D0 url(../img/portal/readmore2.gif);
+text-decoration: none;
+}
+
+/* space from bottom of article */
+.article_separator span{
+  line-height: 10px;
+  font-size: 1px;
+  border-bottom: 1px dotted Black;
+  background-color: lime;
+  width: 100px;
+  }
+  
+/* new and Added  */
+ /* This is table's TD tag that goes around the hole frontpage and blog com's 
+ the backround would cover both td's or all colums
+ */
+.article_column{}
+
+/* this class add formating to the right side of the content front page. 
+it will overwrite the hole right and take formating over article_column after the first col
+*/
+.column_separator{ width: 40px;}
+/* End blogsection */
+
+
+/* Need to Edit this is not My code See plugins images */
+/* thumbnails */
+div.mosimage         {}
+div.mosimage_caption {}
+
+div.caption       {}
+div.caption img   {}
+div.caption p     {}
+/* Need to Edit this is not My code See plugins images */
+
+/* New added */
+/* com_archive */
+/* 
+li      |row                  | 1
+h4      |title                |
+h5		  |metadata					|
+span    |created-date         |
+span    |author               |
+div     |intro                | */
+
+/* It's LI in a UL list  */
+ .row1{}
+ /* H4 Header tag for Title */
+ .title{}
+ 
+ 
+ /* Plugin content Items Archived Article List */
+ /* It a h5 HTML tag which wraps around the authors name meta etc.. */
+ /* needs div id forul list type layout */
+.author{}
+.metadata{}
+.intro{}
+.MsoNormal{}
+
+/*Com Polls*/
+/* Has Styles inside its own com folder */
+/*td      |smalldark          	| */
+.smalldark  {}
+
+/*com_search*/
+.searchintro{}
+/*Search Form keyword highlight*/
+.highlight {}
+
+/* ############# END CONTENT - SECTIONS & CATEGORIES ###########################*/
+

@@ -1,0 +1,36 @@
+/* Design by Brian Diaz of Media 65 @ http://www.m65.net  All Rights Reserved */
+/* ##################### FORM SECTION  #####################*/	
+form{
+	-moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    background:#F6F4F7 none repeat scroll 0 0;
+    color:#2C3B5E;
+    padding-left:10px;
+    text-align:left;
+}
+
+/*Border that goes around some forms*/
+fieldset{border:0px;}
+
+/* Input Field */
+input{}
+
+/* Text Area */
+.inputbox {}
+
+/* Text Area */
+.text_area {}
+
+/* Pull down menu */
+.selectbox {}
+
+/* Submit Button */
+.button {}
+
+/* Contact Email Form */
+.contact_email {}
+
+/*Body of the form*/
+.adminform{}
+/* ##################### END FORM SECTION  ##################### */	

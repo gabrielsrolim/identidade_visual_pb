@@ -1,0 +1,66 @@
+/* Design by Brian Diaz of Media 65 @ http://www.m65.net  All Rights Reserved */
+/*##################### NAVIGATION SECTION #####################*/
+/* Pathway Breadcrumbs is Module*/	
+   a.breadcrumbs pathway{}
+   .pathway {}
+	a.pathway:link {}
+	a.pathway:visited {}
+	a.pathway:active {}
+	a.pathway:hover {}
+   
+/* Menu J1.5 new List vertical*/
+/* level 1 or Top Level*/
+.menu {
+display:block;
+list-style:none;
+}
+ul.menu {
+display:block;
+list-style:none;
+}
+.menu a{}
+.menu a:hover{}
+/* end of Level 1 */
+
+/* Level 2 */
+.menu ul {
+display:block;
+list-style:none;
+}
+.menu ul a{}
+.menu  ul li a:hover{}
+/* End of Level 2 */
+
+/* Level 3 *
+.menu ul ul  {}
+.menu ul ul a {}
+.menu  ul li ul li a:hover{}
+/* End of Level 3 */
+
+
+/* Level 4 *
+.menu ul li ul li ul li {}
+.menu ul li ul li ul li a{}
+.menu ul li ul li ul li a:hover{}
+/* End of Level 4 */
+
+/* Level 5 *
+.menu ul li ul li ul li ul li{}
+.menu ul li ul li ul li ul li a{}
+.menu ul li ul li ul li ul li a:hover{}
+/* End of Level 5 */
+
+/* Current highlighted link Icon Arrow *
+#current li {}
+#current {}
+/*  */
+
+/* Legacy Mainlevel menu
+.mainlevel {}
+a.mainlevel {}
+a.mainlevel:hover {}
+/*  Sub Menu *
+.sublevel{}
+a.sublevel{}
+a.sublevel:hover {}
+/* End Legacy Sub Menu */
