@@ -23,7 +23,7 @@
         <copy attributes="href" css:content="#portal-advanced-search a" css:theme="#link-busca" />
         
         <!-- Personal tools -->
-        
+        <before css:theme="#conteudo" css:content="#portal-personaltools" />
         
         <!-- Edit bar -->
         <before css:theme-children="#conteudo" css:content="#edit-bar" />
