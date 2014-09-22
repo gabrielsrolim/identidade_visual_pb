@@ -62,3 +62,9 @@ ul#topnav .sub ul li a {
 	color:#fff;
 }
 ul#topnav .sub ul li a:hover {color: #ddd;}
+
+.portletHeader {
+    margin: 40px 0px 10px;
+    color: #005395 !important;
+    font-size: 18px;
+}
