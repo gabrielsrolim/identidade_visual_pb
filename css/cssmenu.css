@@ -1,7 +1,7 @@
 /* For IE compatibility */
 body {
 	behavior: url('csshover3.htc');
-} 
+}
 
 div.css_menu ul {
 	list-style: none;
@@ -119,4 +119,3 @@ div.css_menu_template ul li:hover {
 	background: white url(../img/portal/bg-col-menu-on.jpg) no-repeat left bottom;
 	width: auto;
 	height: auto;
-}
