@@ -30,7 +30,7 @@
         
         <!-- Main columns -->
         <replace css:theme-children="#dois" css:content-children="#content"/>
-        <replace css:theme-children="#hum" css:content-children="#portal-column-one" />
+        <replace css:theme-children="#coluna_esquerda" css:content-children="#portal-column-one" />
         <replace css:theme-children="#tres" css:content-children="#portal-column-two" />
 
         <!-- Footer -->
@@ -44,6 +44,13 @@
         <after css:theme-children="#rodape" css:content="#portal-siteactions" />
          <replace css:theme-children="#box-redes ul" css:content="#portal-redes li" />
         
+        
+        <!-- Portlets -->
+        <strip css:content=".portletNavigationTree .portletHeader a.tile" />
+        
+        <drop css:theme="#autenticacao"/>
+        <drop css:theme="#intranet"/>
+        <drop css:theme=".logocentro"/>
         
         <!--<replace css:theme-children="#menu_topo" css:content="#featured-content" />-->
     </rules>
