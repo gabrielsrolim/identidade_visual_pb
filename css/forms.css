@@ -14,7 +14,16 @@ form{
 fieldset{border:0px;}
 
 /* Input Field */
-input{}
+input{
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    padding: 4px;
+    }
+
+input[type="submit"]{
+    width: auto;
+    height: auto;
+}
 
 /* Text Area */
 .inputbox {}

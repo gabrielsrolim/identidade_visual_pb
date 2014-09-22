@@ -3,6 +3,13 @@
     xmlns="http://namespaces.plone.org/diazo"
     xmlns:css="http://namespaces.plone.org/diazo/css"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    
+    <theme href="index.html" css:if-content="#visual-portal-wrapper" />
+
+    <notheme if-path="@@manage-viewlets" />
+    <notheme if="$ajax_load" />
+
+    <xsl:output method="html"/>
 
     <rules css:if-content="#visual-portal-wrapper">
 
@@ -12,9 +19,11 @@
         <replace css:theme="html head title" css:content="html head title" />
         <after css:theme-children="html head" css:content="html head base" />
         <before css:theme-children="html head" css:content="html head script" />
+        <!-- Search Link -->
+        <copy attributes="href" css:content="#portal-advanced-search a" css:theme="#link-busca" />
         
         <!-- Personal tools -->
-        <before css:theme="#conteudo" css:content="#portal-personaltools" />
+        
         
         <!-- Edit bar -->
         <before css:theme-children="#conteudo" css:content="#edit-bar" />
@@ -33,6 +42,8 @@
             <div id="teste" style="margin: 10px 0px;"></div>
         </after>        
         <after css:theme-children="#rodape" css:content="#portal-siteactions" />
+         <replace css:theme-children="#box-redes ul" css:content="#portal-redes li" />
+        
         
         <!--<replace css:theme-children="#menu_topo" css:content="#featured-content" />-->
     </rules>

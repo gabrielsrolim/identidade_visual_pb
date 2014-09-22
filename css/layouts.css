@@ -1,6 +1,6 @@
 
 
-* {margin:0; padding:0} /** retira margens e espaçamento de todas as tags **/
+* {margin:0; padding:0} /* retira margens e espaçamento de todas as tags */
 ul{
 	list-style: none;
 	/*padding: 10px;*/
@@ -94,7 +94,7 @@ h1#logo a {
 }
 
 #aba_banner {
-	/** background: url(../img/portal/aba_banner.gif) no-repeat; **/
+	/* background: url(../img/portal/aba_banner.gif) no-repeat; */
 	height: 75px;
 	width: 487px;
 	float:left;
@@ -104,14 +104,14 @@ h1#logo a {
 }
 
 
-/******* MENU HORIZONTAL *******/
+/* MENU HORIZONTAL */
 
 #separador {background: url(../img/portal/topo_separador.jpg) repeat-x; clear: left; height: 46px;}
 
 #separador_conteudo {
 	background: url(../img/portal/conteudo_separador.html) repeat-x;
 	height: 12px;
-	font-size:1px; /** hIE **/
+	font-size:1px; /* hIE */
 }
 
 #navcontainer ul {
@@ -139,9 +139,9 @@ text-align: left;
 
 #navcontainer li a:hover {color: #8B0000;background: url(../img/portal/topo_abas_hover.jpg) no-repeat;}
 
-.aba_pbmaos {line-height:16px;} /* classe especifica para tratar a quebra de linha em "Paraíba em suas Mãos"
+.aba_pbmaos {line-height:16px;} /* classe especifica para tratar a quebra de linha em "Paraíba em suas Mãos"*/
 
-/******* FIM MENU HORIZONTAL *******/
+/* FIM MENU HORIZONTAL */
 
 /* Menu secom
 =================================== */
@@ -206,7 +206,7 @@ ul.menu-01 li a, ul.menu-02 li a{
 #box-radios ul li{float:left; margin:0 0 0 10px}
 #miolo {clear:left;} 
 
-/******* COLUNA HUM *******/
+/* COLUNA HUM */
 #hum .codata{
 	background-color: Black;
 	height: 60px;
@@ -265,7 +265,7 @@ ul.menu-01 li a, ul.menu-02 li a{
 #hum .fecha {
 	/*background: #F6F4F7 url(../img/portal/menu_fecha.jpg) no-repeat bottom;
 	height:13px;
-	font-size:1px; /** hIE 
+	font-size:1px; /* hIE 
 	margin-bottom:0px;*/
 }
 
@@ -405,12 +405,12 @@ background: url(../img/portal/bg-col-menu-off.jpg) no-repeat left bottom;
 }
 
 
-/******* FIM COLUNA HUM *******/
+/* FIM COLUNA HUM */
 
 
 
 
-/******* COLUNA DOIS *******/
+/* COLUNA DOIS */
 
 #dois {float:left;width:410px;}
 #dois_2colunas {float:left;width:410px;}
@@ -471,7 +471,7 @@ background-color: Aqua;
 	width: 700px;
 	margin-left:10px;
 }
-/******* quadro hum *******/
+/* quadro hum */
 #quadro_hum {
 	border-right: 1px solid #e4e3e3;
 	border-bottom: 1px solid #e4e3e3;
@@ -491,11 +491,11 @@ background-color: Aqua;
 #materias h6 {font-size:12px;}
 #materias a {background: #F6F4F7 url(../img/portal/menu_pontos.gif) repeat-x bottom; display:block;}
 
-/******* fim quadro hum *******/
+/* fim quadro hum */
 
 
 
-/******* quadros *******/
+/* quadros */
 .quadros {
 	border-right: 1px solid #e4e3e3;
 	border-bottom: 1px solid #e4e3e3;
@@ -545,15 +545,15 @@ background-color: Aqua;
 .quadros a:hover {text-decoration:underline;}
 .quadros ul {list-style-type:none;}
 .quadros li {line-height: 20px;}
-/******* fim quadros *******/
+/* fim quadros */
 
 
 
-/******* FIM COLUNA DOIS *******/
+/* FIM COLUNA DOIS */
 
 
 
-/******* COLUNA TRES *******/
+/* COLUNA TRES */
 
 #tres {width: 260px;
 	margin:0;
@@ -589,7 +589,7 @@ background-color: Aqua;
 #tres .fecha {
 	background: #F6F4F7 url(../img/portal/menu_fecha_dir.jpg) no-repeat bottom;
 	height:13px;
-	font-size:1px; /** hIE **/
+	font-size:1px; /* hIE */
 	margin-bottom:5px;
 }
 
@@ -616,11 +616,11 @@ background-color: Aqua;
 	padding-top:5px;
 }
 
-/******* FIM COLUNA TRES *******/
+/* FIM COLUNA TRES */
 
 
 
-/******* OUTROS *******/
+/*OUTROS */
 .endereco{
 	padding-top: 5px;
 	font-size: 11px;
@@ -713,14 +713,12 @@ div#box-redes {
 	float:left;
 	width:310px;
 	height:35px;
-	color:#E8E8E8;
-	margin: 0px 0 0px 0px;	
+	color:#E8E8E8;	
 	padding: 0px 0 0px 10px;
 	
 }
 }
 #box-redes table  td{ 
-/**/
    vertical-align: top;
   }
 #box-redes .moduletable div{
@@ -736,10 +734,40 @@ div#box-redes {
 	padding-right: 5px;
 }
 #box-redes   { 
-/**/
-font-size: 14px;
-   
+	/**/
+	font-size: 14px;
+    margin-top: 60px;
   }
+#box-redes a{
+	background-image: url("../img/sprite.png");
+	display: block;
+	overflow: hidden;
+	width: 20px;
+	height: 20px;
+	text-indent: 100%;
+	padding: 2px;
+}
+
+#box-redes li {
+	display: inline-block;
+}
+
+#portalredes-twitter a {
+	background-position: -155px -25px;
+}
+
+#portalredes-youtube a {
+	background-position: -130px -25px;
+}
+
+#portalredes-facebook a {
+	background-position: -80px -25px;
+}
+
+#portalredes-flickr a {
+	background-position: -105px -25px;
+}
+
 #box-redes h3  { 
 /*margin: 5px -10px 8px;*/
 padding: 0;
@@ -830,7 +858,7 @@ line-height: 15px;
 }
 
 
-/******* CONTATO *******/
+/* CONTATO */
 
 #if_contato {background:#F6F4F7; text-align:left; padding-left:10px; color:#2c3b5e}
 
@@ -852,7 +880,7 @@ line-height: 15px;
 	padding:0;
 }
 
-/******* FIM CONTATO *******/
+/* FIM CONTATO */
 .raposo {
  line-height: 30px;
 	width: 50px;
