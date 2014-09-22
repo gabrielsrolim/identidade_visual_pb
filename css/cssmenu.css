@@ -1,6 +1,6 @@
 /* For IE compatibility */
 body {
-	behavior: url('csshover3.htc');
+    behavior: url('csshover3.htc');
 }
 
 div.css_menu ul {
@@ -110,7 +110,7 @@ div.css_menu ul li div.css_submenu ul li:first-child {
 
 div.css_menu_template ul li {
 	background:white url(../img/portal/bg-col-menu-off.jpg) bottom;
-	width: 160px;
+	width: auto;
 	border-left:5px solid #cfe4f1;
 	height: auto;
 }
@@ -119,3 +119,4 @@ div.css_menu_template ul li:hover {
 	background: white url(../img/portal/bg-col-menu-on.jpg) no-repeat left bottom;
 	width: auto;
 	height: auto;
+}

@@ -1,4 +1,4 @@
-'
+
 
 * {margin:0; padding:0} /** retira margens e espaçamento de todas as tags **/
 ul{
@@ -714,11 +714,10 @@ div#box-redes {
 	width:310px;
 	height:35px;
 	color:#E8E8E8;
-	margin: 0px 0 0px 0px;	
 	padding: 0px 0 0px 10px;
 	
 }
-}
+
 #box-redes table  td{ 
 /**/
    vertical-align: top;
@@ -738,22 +737,23 @@ div#box-redes {
 #box-redes   { 
 /**/
 font-size: 14px;
-margin-top: 60px;
-   
+margin-top: 60px;   
   }
-
- #box-redes a{
-       background-image: url("../img/sprite.png");
-       display: block;
-       overflow: hidden;
-       height: 20px;
-       text-indent: 100%;
-       padding: 2px;
-}
+  
+#box-redes a{    	
+	background-image: url("../img/sprite.png");	
+	display: block;		
+	overflow: hidden;
+	width: 20px;	
+	height: 20px;	
+	text-indent: 100%;		
+	padding: 2px;		
+ }
 
 #box-redes li {
        display: inline-block;
 }
+
 
 #portalredes-twitter a {
        background-position: -155px -25px;
@@ -771,6 +771,7 @@ margin-top: 60px;
        background-position: -105px -25px;
 }
 
+  
 
 #box-redes h3  { 
 /*margin: 5px -10px 8px;*/
@@ -816,8 +817,6 @@ ul#box-redes li a.orkut {background: url(../img/portal/icon-redes.jpg) -167px 0 
 border: 1px solid #999999;
 background-color: #F5F5F8;
 }
-
-
 
 
 
