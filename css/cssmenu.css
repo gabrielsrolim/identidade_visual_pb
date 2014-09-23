@@ -3,14 +3,14 @@ body {
     behavior: url('csshover3.htc');
 }
 
-div.css_menu ul {
+.css_menu ul {
 	list-style: none;
 	margin: 0px;
 	padding: 0px;
 	 
 }
 
-div.css_menu ul li {
+.css_menu ul li {
 	float: left;
 	margin: 0px;
 	padding: 0px;
@@ -20,7 +20,7 @@ div.css_menu ul li {
 	height: 32px;
 }
 
-div.css_menu ul li a {
+.css_menu ul li a {
 	display: block;
 	/*font-size: 12px;*/
 	padding-top: 10px;
@@ -32,7 +32,7 @@ div.css_menu ul li a {
 	
 }
 
-div.css_menu ul li:hover {
+.css_menu ul li:hover {
 	float: left;
 	margin: 0px;
 	padding: 0px;
@@ -42,7 +42,7 @@ div.css_menu ul li:hover {
 	height: 32px;
 }
 
-div.css_menu ul li div.css_submenu {
+.css_menu ul li .css_submenu {
 	position: absolute;
 	display: none;
 	margin: 0;
@@ -52,12 +52,12 @@ div.css_menu ul li div.css_submenu {
 	
 }
 
-div.css_menu ul li:hover div.css_submenu {
+.css_menu ul li:hover .css_submenu {
 	display: block;
 	/*background-color: lime;*/
 }
 
-div.css_menu ul li div.css_submenu ul {
+.css_menu ul li .css_submenu ul {
 	list-style: none;
 	position: relative;
 	/*top: 5px;
@@ -73,7 +73,7 @@ div.css_menu ul li div.css_submenu ul {
 .css_submenu li:hover {
 	/*background-color: lime;*/
 }
-div.css_submenu ul li a{
+.css_submenu ul li a{
 	display: block;
 	/*font-size: 12px;*/
 	padding-top: 10px;
@@ -83,13 +83,13 @@ div.css_submenu ul li a{
 	white-space: nowrap;
 	}
 	
-div.css_submenu ul li a:hover{
+.css_submenu ul li a:hover{
    margin-bottom: 0px;
 	/*padding-bottom: -50px;*/
 	
 	background: white url(../img/portal/bg-col-menu-on.jpg) no-repeat left bottom;
 }
-div.css_menu ul li div.css_submenu ul li {
+.css_menu ul li .css_submenu ul li {
 	float: none;
 	border-left:5px solid #cfe4f1;
 	/*margin: 4px 0px 0px 0px;*/
@@ -101,21 +101,21 @@ div.css_menu ul li div.css_submenu ul li {
 	background: white  url(../img/portal/bg-col-menu-off.jpg)  left bottom;
 }
 
-div.css_menu ul li div.css_submenu ul li:first-child {
+.css_menu ul li .css_submenu ul li:first-child {
 	margin: 0px;
 	margin-bottom: -3px;
 	height: 35px;
 	background-color: white;
 }
 
-div.css_menu_template ul li {
+.css_menu_template ul li {
 	background:white url(../img/portal/bg-col-menu-off.jpg) bottom;
 	width: auto;
 	border-left:5px solid #cfe4f1;
 	height: auto;
 }
 
-div.css_menu_template ul li:hover {
+.css_menu_template ul li:hover {
 	background: white url(../img/portal/bg-col-menu-on.jpg) no-repeat left bottom;
 	width: auto;
 	height: auto;
