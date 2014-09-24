@@ -65,6 +65,10 @@ text-align:center;
 margin: 10px auto;
 }
 
+#rodape p {
+    line-height: 0.2;
+}
+
 h1#logo {
 	width:255px;
 	height:102px;
@@ -912,4 +916,19 @@ border-bottom-left-radius: 0.5em;
 -moz-border-radius-bottomright: 0.5em;
 }*/
 
+#portal-siteactions {
+    float: none;
+}
 
+#info_local{
+    margin: 30px !important;
+}
+
+#portal-personaltools {
+    float: right;
+    position: absolute !important;
+}
+
+#content {
+    margin-bottom: 50px !important;
+}

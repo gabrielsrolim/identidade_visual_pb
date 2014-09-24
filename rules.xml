@@ -19,40 +19,34 @@
         <replace css:theme="html head title" css:content="html head title" />
         <after css:theme-children="html head" css:content="html head base" />
         <before css:theme-children="html head" css:content="html head script" />
+        <before css:theme-children="html head" css:content="html head link" />
+        <drop css:content="head link[rel='shortcut icon']" />
+        <drop css:content="head link[rel='apple-touch-icon']" />
+        <drop css:content="head meta[name='viewport']" />
+        
         <!-- Search Link -->
         <copy attributes="href" css:content="#portal-advanced-search a" css:theme="#link-busca" />
         
         <!-- Personal tools -->
-        <before css:theme="#conteudo" css:content="#portal-personaltools" />
+        <before css:theme="#container" css:content="#portal-personaltools" />
         
         <!-- Edit bar -->
-        <before css:theme-children="#conteudo" css:content="#edit-bar" />
+        <replace content="//*[@id='portal-column-content']/div[2]" css:theme-children="#dois" />
         
         <!-- Main columns -->
-        <replace css:theme-children="#dois" css:content-children="#content"/>
         <replace css:theme-children="#coluna_esquerda" css:content-children="#portal-column-one" />
         <replace css:theme-children="#tres" css:content-children="#portal-column-two" />
-
-        <!-- Footer -->
-        <before css:theme-children="#rodape" css:content-children="#portal-footer" />
-        <before css:theme-children="#rodape">
-            <br></br>
-        </before>
-        <after css:theme-children="#rodape" >
-            <div id="teste" style="margin: 10px 0px;"></div>
-        </after>        
-        <after css:theme-children="#rodape" css:content="#portal-siteactions" />
-         <replace css:theme-children="#box-redes ul" css:content="#portal-redes li" />
-        
-        
-        <!-- Portlets -->
-        <strip css:content=".portletNavigationTree .portletHeader a.tile" />
-        
         <drop css:theme="#autenticacao"/>
         <drop css:theme="#intranet"/>
         <drop css:theme=".logocentro"/>
+
+        <!-- Footer -->
+        <before css:theme-children="#rodape" css:content-children="#portal-footer" />
+        <after css:theme-children="#rodape" css:content="#portal-siteactions" />
+        <replace css:theme-children="#box-redes ul" css:content="#portal-redes li" />
         
-        <!--<replace css:theme-children="#menu_topo" css:content="#featured-content" />-->
+        <!-- Portlets -->
+        <strip css:content=".portletNavigationTree .portletHeader a.tile" />
     </rules>
 
 </rules>
